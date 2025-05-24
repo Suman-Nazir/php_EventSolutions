@@ -1,0 +1,44 @@
+* {
+    font-family: 'Montserrat', cursive;
+    font-family: 'Patua One';
+}
+body {
+    overflow-x: hidden;
+    background: #f1fbff;
+}
+.section-padding {
+    padding: 100px 0;
+}
+.portfolio .card {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+    .card {
+        margin-bottom: 30px;
+    }
+    .img-area img {
+        width: 100%;
+    }   
+    .card {
+        margin-bottom: 30px;
+        width: 100%;
+        height: auto;
+    }
+/* Hover Effect for Cards */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15); /* Existing shadow */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    position:unset;
+    width: 100%;
+    bottom: 100;
+}

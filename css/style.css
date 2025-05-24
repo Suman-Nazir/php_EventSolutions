@@ -1,0 +1,153 @@
+* {
+    font-family: 'Montserrat', cursive;
+    font-family: 'Patua One';
+}
+body {
+    overflow-x: hidden;
+    background: url(assests/images/sumi.webp) no-repeat center center fixed;
+    background-size: cover;
+}
+.dropdown-menu {
+    display: none; /* Hide dropdown menu by default */
+    position: absolute;
+    top: 100%; /* Position below the parent element */
+    left: 0; 
+    margin-top: 0.5rem;
+    padding: 0.5rem 0;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+}
+.dropdown:hover .dropdown-menu {
+    display: block; /* Show dropdown menu on hover */
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+.section-padding {
+    padding: 100px 0;
+}
+/* Navbar background and general styling */
+.custom-navbar {
+    background-color: #fcc266; /* Mustard/light yellow background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds a slight shadow */
+}
+.navbar-logo {
+    height: 60px; /* Adjust the height to fit the navbar */
+    width: auto;  /* Keep the aspect ratio of the logo */
+    transition: transform 0.3s ease; /* Optional: Add a slight hover effect */
+}
+
+.navbar-logo:hover {
+    transform: scale(1.1); /* Slight zoom-in effect on hover */
+}
+/* Navbar links */
+.navbar-nav .nav-link {
+    color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f09b46; /* Light orange hover effect */
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+    background-color: #FFE4A1; /* Slightly lighter yellow for dropdowns */
+    border: none;
+}
+
+.dropdown-item {
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.dropdown-item:hover {
+    background-color: #FFB347; /* Light orange for hover */
+    color: white;
+}
+
+/* Buttons (Signup and Login) */
+.btn-outline-warning {
+    border-color: black;
+    color: black;
+    font-weight: 700;
+}
+
+.btn-outline-warning:hover {
+    background-color: #FFB347;
+    color: white;
+}
+
+/* Navbar toggler button (for small screens) */
+.navbar-toggler {
+    border-color: black;
+}
+
+.navbar-toggler-icon {
+    background-color: black;
+}
+
+/* Add some spacing between navbar items */
+.navbar-nav .nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.portfolio .card {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.team .card {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.services .card-body i {
+    font-size: 50px;
+}
+.about-img img {
+    box-shadow: 0px 0px 15px #b1afaf, 0px 0px 25px #c2b9b9;
+}
+.img_wrapper {
+    height: 340px;
+    width: 340px;
+}
+.team_img {
+    height: 150px;
+    width: 150px;
+}
+.team .card-body i {
+    font-size: 15px;
+}
+@media only screen and (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .about-text {
+        padding-top: 50px;
+    }
+    .card {
+        margin-bottom: 30px;
+        width: 100%;
+        height: auto;
+    }
+}
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15); 
+}
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
